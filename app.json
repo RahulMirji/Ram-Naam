@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Ram Naam Tracker",
+    "slug": "ram-naam-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.jpeg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "ramnaam",
+    "splash": {
+      "image": "./assets/logo.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF8F0"
+    },
+    "android": {
+      "allowBackup": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.jpeg",
+        "backgroundColor": "#FF6F00"
+      },
+      "package": "com.ramnaam.tracker"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ]
+  }
+}
